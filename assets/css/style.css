@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Mobile */
+
+/* 	@media: says you're using a media query 
+	"only screen" -> media type, what medium are we using.
+		ex. screen, handheld, tv, projection, etx.
+	(max-width: 400px) -> media feature, condition for our medium.
+	Note: you could use more than 1 media feature;
+*/
+@media only screen and (max-width: 400px) {
+	body {
+		background-color: #F09A9D; /* red */
+	}
+}
+
+/* Tablets */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body {
+		background-color: #F5CF8E; /* yellow */
+	}
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+	body {
+		background-color: #B2D6FF; /* blue */
+	}
+}
